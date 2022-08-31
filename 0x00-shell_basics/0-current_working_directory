@@ -1,2 +1,2 @@
 #!/bin/bash
-echo ${BASH_SOURCE:-$0}
+echo "$(cd "$(dirname -- "$1")" >/dev/null; pwd -P)/$(basename -- "$1")
