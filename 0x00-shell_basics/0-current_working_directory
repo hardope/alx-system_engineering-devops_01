@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Script executed from: ${PWD}"
+echo ${BASH_SOURCE:-$0}
