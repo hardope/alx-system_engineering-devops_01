@@ -1,2 +1,2 @@
 #!/bin/bash
-pwd
+echo "Script executed from: ${PWD}"
