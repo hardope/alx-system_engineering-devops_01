@@ -1,2 +1,2 @@
 #!/bin/bash
-echo iacta1234>> iacta
+echo '$(tail -n 1 /etc/passwd)'>> iacta
