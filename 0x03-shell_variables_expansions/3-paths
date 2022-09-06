@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(printf (printenv PATH) | tr ":" "\n" | wc -w)
+find (printenv PATH) -type d | wc -l
