@@ -1,2 +1,2 @@
 #!/bin/bash
-find printenv PATH -type d | wc -l
+echo $((`echo $PATH | grep -o ":/" | wc -l`+ 1))
