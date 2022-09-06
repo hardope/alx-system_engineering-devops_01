@@ -1,2 +1,2 @@
 #!/bin/bash
-e < printf "128\n$((env TRUEKNOWLEDGE+128))\n"
+printf "128\n$((TRUEKNOWLEDGE+128))\n"
