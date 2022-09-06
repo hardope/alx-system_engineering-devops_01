@@ -1,2 +1,2 @@
 #!/bin/bash
-declare -i var=TRUEKNOWLEDGE+128; echo$var
+echo $((TRUEKNOWLEDGE+128))
